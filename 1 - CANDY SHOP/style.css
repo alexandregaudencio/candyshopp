@@ -1,0 +1,710 @@
+*{
+    margin: 0;  
+    padding: 0;
+    -webkit-boz-sizing: border-box;
+    -moz-boz-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 1rem;
+}
+
+/* h3 {
+    font-family: 'Sansita Swashed', cursive !important;
+
+
+} */
+
+p {
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  background-image: url(./img/home/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+}
+
+.logo {
+    width: auto;
+    height: 90%;
+    align-self: center;
+}
+.secoes {
+    align-self: center;
+}
+
+.secoes ul li {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline-block; 
+    margin-right: 1rem;
+    font-family:'Sansita Swashed', cursive;
+
+}
+a {
+    text-decoration: none;
+    color:#f8007c;
+}
+
+.social {
+    align-self: center;
+    margin-right: 7rem;
+}
+
+.social img {
+    width: 2rem;
+    margin-left: 0.5rem ;
+}
+
+
+.Banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/home/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.sobre-nos img {
+    width: 80vw;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.Texto-sobre-nos{
+    display: flex;
+    
+  
+}
+
+.sobre-nos {
+    margin:7rem;
+}
+
+.sobre-nos h2 {
+     text-align: center;
+}
+
+
+
+
+
+.sobre-nos p {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produtos {
+    padding: 3rem;
+}
+
+.produtos .todos-produtos .guloseimas {
+    margin: 2rem;
+    border: 1px solid #916888;
+    width: fit-content;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6); 
+    float: none;
+    display: inline-block;
+    height: 0rem;
+    
+}
+
+.produtos .todos-produtos img {
+    width: 15rem;
+    height: 17.5rem;
+    padding-top: 50%;
+    align-self:center;
+    padding-top: 1.9rem;
+    padding-left: -1px;
+    float: none; 
+}
+
+.CaixaImg {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+}
+
+.Imagem {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Sobreposicao {
+    position: absolute;
+    top: 1.9rem;
+    bottom: 0.2rem;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition:.5s ease;
+    background-color: #DDA0DD;
+}
+
+.CaixaImg:hover .Sobreposicao {
+    opacity: 1;
+}
+
+.Texto {
+    color:	#ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.personalizados {
+    margin-top: 10rem;
+}
+
+.personalizados h1 {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    display: block;
+}
+
+.personalizados .fundo-personalizados {
+    background-image: url("./img/fund_nuvem.jpg");
+}
+
+.personalizados .fundo-personalizados .transicao-fundo {
+    background-image: linear-gradient(
+        rgba(1, 0, 0, 0),
+        rgba(1, 0, 0, 0),
+        rgba(1, 0, 0, 0),
+        rgb(255, 255, 255), 
+        rgb(255, 255, 255)
+    );
+    
+}
+
+.todo-confeitados {
+    background-color: #ffffff;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    
+	 
+}
+
+.confeitados {
+    display: flex;
+    border-left: 2px solid #FF69B4;
+    border-right: 2px solid aqua;
+    
+}
+
+.personalizados .confeitados img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.personalizados .info-confeitados {
+    margin-top: 3rem;
+    padding: 0 0.5rem;
+
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding-bottom: 3rem
+}
+
+#Casamento {
+    text-align: right;
+    transform: translate(0,-20%);
+}
+
+#Decoracao {
+    transform: translate(0,-40%);
+    margin-top: 2rem;
+}
+
+#Criativos {
+    text-align: right;
+    transform: translate(0,-60%);
+
+}
+
+.info-pessoal {
+    margin:  0 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contato {
+    margin-left: 5rem;
+}
+
+.contato h1 {
+    margin-bottom: 3rem;
+}
+
+.contato .conteudo-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato .conteudo-contato .texto-contato {
+    margin-top: 8rem;
+}
+
+.contato img {
+    width: 600px;
+    height: auto
+}
+
+.contato p {
+    padding-top: 0.6rem;
+    text-align: justify;
+}
+
+#msg-contato {
+    font-weight: 60;
+    margin-bottom: 2rem;
+
+}
+
+
+
+
+
+.footer {
+    text-align: center;
+    padding: 0.6rem;
+    border-top: 1px solid #daabb3;
+    font-size: 12px;
+}
+
+@media(max-width: 1200px) {
+    .todo-confeitados {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .social{
+        margin-right: 0;
+    }
+
+    /* .todo-confeitados {
+        background-color: #ffffff;
+    } */
+}
+
+@media(max-width: 850px){
+    .home {
+        max-width: 100vw;
+        max-height: 100vw;
+    }
+
+    .menu {
+        height: 10%;
+    }
+
+    .logo {
+        height: 90%;
+        width: auto;
+    }
+
+    .secoes {
+        display: none;
+    }
+
+    .social{
+        height: 50%;
+
+    }
+
+    .social img {
+        height: 100%;
+        width: auto;
+        padding-left: 1rem;
+    }
+
+
+
+
+
+
+
+
+    .sobre-nos {
+        display: block;
+        padding:  1rem;
+        margin: 2rem;
+    }
+
+    /* .sb-texto h1 {
+        padding-bottom: 1rem;
+    } */
+
+    /* #sb-imagem {
+        width: 100vw;
+        height: auto;
+    } */
+
+    .sobre-nos img {
+        width: 100%;
+    }
+
+
+
+
+    .produtos{
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+    .produtos .todos-produtos .guloseimas {
+        margin: 1rem;
+    }
+
+    .produtos .todos-produtos {
+        padding-left: 5rem;
+    }
+
+    /* .produtos img {
+        width: 25vw;
+        height: auto;
+    } */
+    
+    /* .produtos .todos-produtos  {
+        margin: 1rem;
+        width: 25vw;
+        height: auto;
+        padding-bottom: 4rem;
+    } */
+
+    .produtos .todos-produtos img {
+        padding-left: 0;
+        /* transform: translate(6vw); */
+    }
+
+
+
+    .todo-confeitados {
+        margin: 0;
+    }
+
+
+
+    .personalizados h1 {
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+
+    .todos-personalizados {
+        background-color: #ffffffd7;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        align-items: center;
+    }
+
+    /* .personalizados .confeitados img {
+        width: 10rem;
+        height: 15rem;
+    } */
+
+
+
+    .contato {
+        margin-top: 0rem;
+    }
+
+    .contato h1 {
+        margin-bottom: 1rem;
+    }
+
+    .contato {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contato .conteudo-contato {
+        display:block;
+    }
+
+    .contato .conteudo-contato .texto-contato {
+        margin: 2rem;
+    }
+
+    #msg.contato {
+        margin-bottom: 10rem;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .contato img {
+        width: 100vw;
+        height: auto;
+        
+    }
+
+    /* h1 {
+        margin: 20rem;
+        text-align: center;
+    } */
+
+
+
+
+}
+
+/* @media(max-width: 700px) {
+    .confeitados {
+        display: block;
+    }
+} */
+
+
+
+
+@media(max-width: 667px) {
+    .produtos .todos-produtos img {
+        width: 35vw;
+        height: auto;
+    }
+
+    .produtos .todos-produtos {
+         padding-left: 2rem; 
+    }
+
+    .sobre-nos {
+        margin: 3% ;
+    }
+
+  
+}
+
+/* @media(max-width: 667px) {
+    .produtos .todos-produtos {
+
+    }
+} */
+
+
+@media(max-width: 480px) {
+    
+    .home {
+        /* width: auto; */
+        max-width: 100%;
+        max-height: 90vh;
+        
+    }
+    
+    .social img {
+        padding-left: 2vw;
+        width: auto;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .menu {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    .sobre-nos p {
+        padding:  0;
+        text-align: justify;
+    }
+
+
+    .produtos .todos-produtos {
+        padding-left: 0.3rem;
+    }
+
+    .produtos .todos-produtos .guloseimas {
+        margin: 0.5rem;
+    }
+
+    .produtos .todos-produtos img {
+        width: 40vw;
+        padding-top: 0.5rem;
+    }
+
+
+
+
+    .Sobreposicao {
+        position: absolute; 
+        top: 80%;
+        left: 0;
+        right: -20vw;
+        opacity: 0;
+        transition:.5s ease;
+        background-color: #DDA0DD;
+    }
+    
+    
+    .CaixaImg .Sobreposicao {
+        opacity: 1;
+    }
+
+
+  
+
+    .produtos p {
+        padding-top: 10rem;
+    
+    }
+
+
+    .Texto {
+        font-size: 0.8rem;
+    }
+
+
+/* 
+    .produtos img {
+        padding-left: 0;
+        transform: translate(35vw);
+    } */
+
+    .personalizados .confeitados img {
+        width: 45vw;
+        height: auto;
+    }
+
+  
+    .personalizados p {
+        font-style: italic;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+
+    
+    #Casamento {
+        text-align: right;
+        transform: translate(0,0);
+    }
+
+    #Decoracao {
+        transform: translate(0,0);
+        margin-top: 0;
+    }
+
+    #Criativos {
+        text-align: right;
+        transform: translate(0,0);
+
+    }
+
+
+    h3 {
+        padding:  0;
+    }
+
+    .personalizados .info-confeitados {
+        margin: 0;
+    }
+
+
+
+
+
+    .contato h1 {
+        margin-top: 2rem;
+    }
+
+
+    .footer {
+        font-size: 10px;
+    }
+
+}
